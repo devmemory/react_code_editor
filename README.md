@@ -1,3 +1,6 @@
+# Preview
+![img](https://github.com/devmemory/react_code_editor/assets/71013471/36a5511c-587a-4e6a-92e4-5f637bdb185e)
+
 ## React code editor
 1. This is made with @babel/standalone, Prism.js
 2. One is using iframe and other is using render from createRoot
