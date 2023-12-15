@@ -1,0 +1,47 @@
+
+.div_code {
+  width: 60%;
+  height: 100%;
+  position: relative;
+}
+
+.div_code > div {
+  padding: 2px 0 2px 8px;
+  background-color: grey;
+  color: white;
+}
+
+.div_code > textarea,
+.div_code > pre {
+  position: absolute;
+  height: calc(100% - 30px);
+  width: 100%;
+  margin: 0;
+  padding: 10px;
+  border: unset;
+  border-radius: unset;
+}
+
+.div_code > textarea,
+.div_code > pre,
+.div_code > pre * {
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: monospace;
+  tab-size: 2;
+  white-space: pre;
+}
+
+.div_code > textarea {
+  color: transparent;
+  background-color: transparent;
+  z-index: 1;
+  color: transparent;
+  caret-color: white;
+  display: block;
+  resize: none;
+}
+
+.div_code > pre {
+  z-index: 0;
+}
